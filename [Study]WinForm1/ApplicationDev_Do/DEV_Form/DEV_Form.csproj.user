@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="BaseMDIChildForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Fm_Cust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FM_ITEM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FM_OVERRIDE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FM_USER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MDI_TEST2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MDI_TEST[테스트화면].cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

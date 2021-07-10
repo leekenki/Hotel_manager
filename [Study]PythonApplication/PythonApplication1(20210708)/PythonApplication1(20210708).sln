@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication1(20210708)", "PythonApplication1(20210708)\PythonApplication1(20210708).pyproj", "{8003028D-B618-4FFF-B443-234C95C0F967}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A69E4964-7E96-4C7F-9E23-74D049CF1FA7}"
+	ProjectSection(SolutionItems) = preProject
+		PythonApplication1(20210708)\smart(teacher).py = PythonApplication1(20210708)\smart(teacher).py
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8003028D-B618-4FFF-B443-234C95C0F967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8003028D-B618-4FFF-B443-234C95C0F967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35F09C65-2E04-4E7D-8081-7DC6DDA53637}
+	EndGlobalSection
+EndGlobal

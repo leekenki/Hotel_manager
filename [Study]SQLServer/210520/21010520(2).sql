@@ -1,0 +1,1 @@
+SELECT * FROM Table_USER_LKK

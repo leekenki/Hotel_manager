@@ -1,0 +1,77 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>00b2e3b1-3689-4596-a4b6-320b7224f530</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>def02.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PythonApplication1(20210705)</Name>
+    <RootNamespace>PythonApplication1(20210705)</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="break01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="class01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="class02.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="def01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="def02.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dic01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="for01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gugu01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="list04.py" />
+    <Compile Include="list05.py" />
+    <Compile Include="list06.py" />
+    <Compile Include="if01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tuple03.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tuple02.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tuple01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="list01~03.py" />
+    <Compile Include="while01.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
